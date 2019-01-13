@@ -6,6 +6,6 @@ app_name='tasks'
 
 urlpatterns = [
     url(r'^$', views.home, name='home'),
-    url(r'^logout/$', views.logout, name='logout'),
-    url(r'^login/$', views.login, name='login'),
+    url(r'^logout/$', views.logoutUser, name='logout'),
+    url(r'^login/$', views.loginUser, name='login'),
 ]

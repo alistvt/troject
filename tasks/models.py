@@ -13,11 +13,12 @@ logger = logging.getLogger(__name__)
 #
 
 class Task(models.Model):
-    """Model which keeps tasks.
-        each Task record has:
-        `title`,
-        `status: False if for pending and True is for done
-        `group`: is an IntegerField which have is a choice of the class `Groups`
+    """
+    Model which keeps tasks.
+    each Task record has:
+    `title`,
+    `status: False if for pending and True is for done
+    `group`: is an IntegerField which have is a choice of the class `Groups`
     """
     class Groups:
         """Class containing Todo groups"""
