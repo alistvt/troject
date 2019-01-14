@@ -1,7 +1,9 @@
 from django.contrib.auth import authenticate, login, get_user_model, logout
+from django.contrib.auth.models import User
 from django.shortcuts import render, redirect
 from .forms import LoginForm
 from .helper_functions import getTasksCategorized
+from .models import Task
 # Create your views here.
 
 def loginUser(request):
@@ -31,8 +33,21 @@ def logoutUser(request):
 
 def home(request):
 	user = request.user
+	groups = Task.Groups.choices
 	if user.is_superuser:
-		tasks = categorizeTasks(tasks=Task.objects.all())
+		tasks = getTasksCategorized(tasks=Task.objects.all())
+		users = User.objects.all()
+		return render(request, template_name='home.html', context={'tasks':tasks, 'users':users, 'groups':groups})
 	else:
 		tasks = categorizeTasks(tasks=Task.objects.filter(user=user))
-	return render(request, 'home.html', {'tasks':tasks})
+		return render(request, template_name='home.html', context={'tasks':tasks, 'groups':groups})
+
+# superuser check
+def addTask(request):
+	if request.method == 'POST':
+		form = TaskForm(request.POST)
+		if form.is_valid:
+			task = form.save()
+	else:
+		pass
+		# 404

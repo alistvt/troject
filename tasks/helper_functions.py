@@ -11,5 +11,4 @@ def getTasksCategorized(tasks):
     grouped = dict()
     for group, groupName in groups:
         grouped[groupName] = tasks.filter(group=group)
-
     return grouped

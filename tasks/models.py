@@ -22,19 +22,25 @@ class Task(models.Model):
     """
     class Groups:
         """Class containing Todo groups"""
-        ungrouped = 0
-        group1 = 1
-        group2 = 2
-        group3 = 3
-        choices = ((ungrouped, 'Ungrouped'),
-        (group1, 'Group 1'),
-        (group2, 'Group 2'),
-        (group3, 'Group 3'),)
+        idea = 0
+        research = 1
+        strategy = 2
+        performance = 3
+        bugs = 4
+        buy = 5
+        choices = (
+            (idea, 'Idea'),
+            (research, 'Research'),
+            (strategy, 'Strategy'),
+            (performance, 'Performance'),
+            (bugs, 'Bugs'),
+            (buy, 'Buy'),
+        )
 
     title = models.CharField(max_length=255)
-    status = models.BooleanField(default=False)
-    group = models.PositiveSmallIntegerField(choices=Groups.choices, default=Groups.ungrouped)
-    created = models.DateTimeField(auto_now_add=True)
-    modified = models.DateTimeField(auto_now=True)
-    done = models.DateTimeField(blank=True, null=True)
+    status = models.BooleanField(default=False) # done = 1  and pending = 0
+    group = models.PositiveSmallIntegerField(choices=Groups.choices, default=Groups.idea)
     user = models.ForeignKey(User, related_name='tasks', blank=True, null=True,on_delete=models.SET_NULL)
+    createdDate = models.DateTimeField(auto_now_add=True)
+    modifiedDate = models.DateTimeField(auto_now=True)
+    doneDate = models.DateTimeField(blank=True, null=True)
