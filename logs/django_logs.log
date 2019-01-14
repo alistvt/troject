@@ -1,0 +1,809 @@
+WARNING 2019-01-14 03:37:38,492 "GET /adminlogginginpage HTTP/1.1" 404 2500 None
+WARNING 2019-01-14 03:37:40,461 "GET /favicon.ico HTTP/1.1" 404 2479 None
+INFO 2019-01-14 03:37:42,510 "GET /admin HTTP/1.1" 301 0 None
+INFO 2019-01-14 03:37:42,527 "GET /admin/ HTTP/1.1" 302 0 None
+INFO 2019-01-14 03:37:43,016 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1855 None
+INFO 2019-01-14 03:37:43,152 "GET /static/admin/css/login.css HTTP/1.1" 200 1203 None
+INFO 2019-01-14 03:37:43,155 "GET /static/admin/css/base.css HTTP/1.1" 200 16106 None
+INFO 2019-01-14 03:37:43,156 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894 None
+INFO 2019-01-14 03:37:43,208 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423 None
+INFO 2019-01-14 03:37:43,397 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304 None
+INFO 2019-01-14 03:37:43,417 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348 None
+INFO 2019-01-14 03:38:06,445 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2028 None
+INFO 2019-01-14 03:38:06,553 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564 None
+INFO 2019-01-14 03:38:16,332 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0 None
+INFO 2019-01-14 03:38:16,453 "GET /admin/ HTTP/1.1" 200 2986 None
+INFO 2019-01-14 03:38:16,494 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412 None
+INFO 2019-01-14 03:38:16,636 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380 None
+INFO 2019-01-14 03:38:16,689 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331 None
+ERROR 2019-01-14 03:38:24,698 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 35, in home
+    groups = Task.Groups.choices
+NameError: name 'Task' is not defined
+ERROR 2019-01-14 03:38:24,698 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 35, in home
+    groups = Task.Groups.choices
+NameError: name 'Task' is not defined
+ERROR 2019-01-14 03:38:27,303 "GET / HTTP/1.1" 500 69447 None
+ERROR 2019-01-14 03:38:53,307 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 38, in home
+    tasks = categorizeTasks(tasks=Task.objects.all())
+NameError: name 'categorizeTasks' is not defined
+ERROR 2019-01-14 03:38:53,307 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 38, in home
+    tasks = categorizeTasks(tasks=Task.objects.all())
+NameError: name 'categorizeTasks' is not defined
+ERROR 2019-01-14 03:38:55,372 "GET / HTTP/1.1" 500 69868 None
+ERROR 2019-01-14 03:39:46,514 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 40, in home
+    return render(request, 'home.html', {'tasks':tasks, 'users':users, 'groups':groups})
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 815, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 454, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 452, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 662, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 574, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'count'
+ERROR 2019-01-14 03:39:46,514 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 40, in home
+    return render(request, 'home.html', {'tasks':tasks, 'users':users, 'groups':groups})
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 815, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 454, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 452, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 662, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 574, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'count'
+ERROR 2019-01-14 03:39:48,965 "GET / HTTP/1.1" 500 197510 None
+ERROR 2019-01-14 03:40:34,336 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 40, in home
+    return render(request, 'home.html', {'tasks':tasks, 'users':users, 'groups':groups})
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 815, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 815, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 956, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 454, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 452, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 668, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '{{task.created' from '{{task.created'
+ERROR 2019-01-14 03:40:34,336 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 40, in home
+    return render(request, 'home.html', {'tasks':tasks, 'users':users, 'groups':groups})
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 815, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 815, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 956, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 454, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 452, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 668, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '{{task.created' from '{{task.created'
+ERROR 2019-01-14 03:40:36,550 "GET / HTTP/1.1" 500 224215 None
+INFO 2019-01-14 03:41:00,164 "GET / HTTP/1.1" 200 4797 None
+INFO 2019-01-14 03:41:19,053 "GET / HTTP/1.1" 200 4797 None
+INFO 2019-01-14 03:41:19,876 "GET / HTTP/1.1" 200 4797 None
+INFO 2019-01-14 03:41:20,202 "GET / HTTP/1.1" 200 4797 None
+INFO 2019-01-14 03:41:20,469 "GET / HTTP/1.1" 200 4797 None
+INFO 2019-01-14 03:41:23,934 "GET / HTTP/1.1" 200 4797 None
+INFO 2019-01-14 03:41:24,327 "GET / HTTP/1.1" 200 4797 None
+INFO 2019-01-14 03:41:45,689 "GET / HTTP/1.1" 200 4869 None
+INFO 2019-01-14 03:41:58,631 "GET / HTTP/1.1" 200 4797 None
+INFO 2019-01-14 03:47:01,172 "GET / HTTP/1.1" 200 4797 None
+INFO 2019-01-14 03:48:10,363 "GET / HTTP/1.1" 200 4797 None
+INFO 2019-01-14 03:48:37,211 "GET / HTTP/1.1" 200 4797 None
+INFO 2019-01-14 03:48:47,330 "GET / HTTP/1.1" 200 4797 None
+INFO 2019-01-14 03:49:19,642 "GET / HTTP/1.1" 200 4797 None
+INFO 2019-01-14 03:49:54,955 "GET / HTTP/1.1" 200 5231 None
+INFO 2019-01-14 03:50:33,960 "GET / HTTP/1.1" 200 5231 None
+INFO 2019-01-14 03:51:11,397 "GET / HTTP/1.1" 200 5231 None
+ERROR 2019-01-14 03:52:18,336 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 40, in home
+    return render(request, 'home.html', {'tasks':tasks, 'users':users, 'groups':groups})
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 202, in render
+    .format(num_loopvars, len_item),
+ValueError: Need 2 values to unpack in for loop; got 4. 
+ERROR 2019-01-14 03:52:18,336 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 40, in home
+    return render(request, 'home.html', {'tasks':tasks, 'users':users, 'groups':groups})
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 202, in render
+    .format(num_loopvars, len_item),
+ValueError: Need 2 values to unpack in for loop; got 4. 
+ERROR 2019-01-14 03:52:20,860 "GET / HTTP/1.1" 500 152664 None
+ERROR 2019-01-14 03:52:20,927 "GET / HTTP/1.1" 500 59 None
+ERROR 2019-01-14 03:52:19,251 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 40, in home
+    return render(request, 'home.html', {'tasks':tasks, 'users':users, 'groups':groups})
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 202, in render
+    .format(num_loopvars, len_item),
+ValueError: Need 2 values to unpack in for loop; got 4. 
+ERROR 2019-01-14 03:52:19,251 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 40, in home
+    return render(request, 'home.html', {'tasks':tasks, 'users':users, 'groups':groups})
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 202, in render
+    .format(num_loopvars, len_item),
+ValueError: Need 2 values to unpack in for loop; got 4. 
+ERROR 2019-01-14 03:52:23,004 "GET / HTTP/1.1" 500 152665 None
+ERROR 2019-01-14 03:52:42,629 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 40, in home
+    return render(request, 'home.html', {'tasks':tasks, 'users':users, 'groups':groups})
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 202, in render
+    .format(num_loopvars, len_item),
+ValueError: Need 2 values to unpack in for loop; got 4. 
+ERROR 2019-01-14 03:52:42,629 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 40, in home
+    return render(request, 'home.html', {'tasks':tasks, 'users':users, 'groups':groups})
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 202, in render
+    .format(num_loopvars, len_item),
+ValueError: Need 2 values to unpack in for loop; got 4. 
+ERROR 2019-01-14 03:52:45,067 "GET / HTTP/1.1" 500 152665 None
+INFO 2019-01-14 03:53:48,720 "GET / HTTP/1.1" 200 5231 None
+INFO 2019-01-14 03:53:59,790 "GET / HTTP/1.1" 200 5231 None
+INFO 2019-01-14 03:54:00,285 "GET / HTTP/1.1" 200 5231 None
+INFO 2019-01-14 03:54:00,508 "GET / HTTP/1.1" 200 5231 None
+INFO 2019-01-14 03:54:14,403 "GET / HTTP/1.1" 200 5231 None
+INFO 2019-01-14 03:55:03,796 "GET / HTTP/1.1" 200 5231 None
+INFO 2019-01-14 03:55:48,806 "GET / HTTP/1.1" 200 5231 None
+INFO 2019-01-14 03:56:34,323 "GET / HTTP/1.1" 200 5249 None
+INFO 2019-01-14 03:57:29,023 "GET / HTTP/1.1" 200 5231 None
+INFO 2019-01-14 03:57:29,867 "GET / HTTP/1.1" 200 5231 None
+INFO 2019-01-14 03:57:38,832 "GET / HTTP/1.1" 200 5231 None
+ERROR 2019-01-14 03:59:15,849 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 40, in home
+    return render(request, 'home.html', {'tasks':tasks, 'users':users, 'groups':groups})
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 662, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 574, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'items'
+ERROR 2019-01-14 03:59:15,849 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 40, in home
+    return render(request, 'home.html', {'tasks':tasks, 'users':users, 'groups':groups})
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 662, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 574, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'items'
+ERROR 2019-01-14 03:59:18,262 "GET / HTTP/1.1" 500 186884 None
+ERROR 2019-01-14 03:59:18,295 "GET / HTTP/1.1" 500 59 None
+ERROR 2019-01-14 03:59:16,629 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 40, in home
+    return render(request, 'home.html', {'tasks':tasks, 'users':users, 'groups':groups})
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 662, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 574, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'items'
+ERROR 2019-01-14 03:59:16,629 Internal Server Error: / None
+Traceback (most recent call last):
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Alis\Desktop\Troject\tasks\views.py", line 40, in home
+    return render(request, 'home.html', {'tasks':tasks, 'users':users, 'groups':groups})
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 662, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "C:\Users\Alis\Desktop\Troject\env\lib\site-packages\django\template\base.py", line 574, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'items'
+ERROR 2019-01-14 03:59:20,307 "GET / HTTP/1.1" 500 186885 None
+INFO 2019-01-14 04:00:38,800 "GET / HTTP/1.1" 200 5269 None
+INFO 2019-01-14 04:00:49,998 "GET / HTTP/1.1" 200 5269 None

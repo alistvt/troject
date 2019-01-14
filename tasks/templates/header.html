@@ -1,0 +1,38 @@
+{% load staticfiles %}
+{% if user.is_authenticated %}
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" style="color:#FFF;" href="#">TROJECT</a>
+      <ul class="nav navbar-nav">
+        {% if user.is_superuser %}
+        <li><a href="#" data-toggle="modal" data-target="#new-item-modal"><span class="glyphicon glyphicon-plus"></span> New Task </a></li>
+        {% endif %}
+      </ul>
+    </div>
+    <ul class="nav navbar-nav">
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> {{user.username}}</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Sign out</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+{% else %}
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" style="color:#FFF;" href="#">TROJECT</a>
+    </div>
+    <ul class="nav navbar-nav">
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign in</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+{% endif %}

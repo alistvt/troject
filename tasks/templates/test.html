@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Troject</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" style="color:#FFF;" href="#">TROJECT</a>
+          <ul class="nav navbar-nav">
+            <li><a href="#" data-toggle="modal" data-target="#new-item-modal"><span class="glyphicon glyphicon-plus"></span> New Task </a></li>
+          </ul>
+        </div>
+
+        <ul class="nav navbar-nav">
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Ali Satvaty</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+    <!-- NewItem Modal -->
+    <div id="new-item-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-md">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><span class="glyphicon glyphicon-plus"></span> New Task</h4>
+        </div>
+        <div class="modal-body">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="title">Title:</label>
+              <input name="title" class="form-control" id="title">
+            </div>
+            <div class="form-group">
+              <label for="group">Group:</label>
+              <select class="form-control" id="group">
+                <option name="group" value="">group1</option>
+                <option value="">group1</option>
+                <option value="">group1</option>
+                <option value="">group1</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="sel1">User:</label>
+              <select class="form-control" id="sel1">
+                <option value="">username</option>
+                <option value="">username</option>
+                <option value="">username</option>
+                <option value="">username</option>
+              </select>
+            </div>
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Add Task</button>
+        </div>
+      </div>
+
+    </div>
+    </div>
+<!--
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><b>Troject</b></a>
+          <ul class="nav navbar-nav">
+            <li><a href="#"><span class="glyphicon glyphicon-plus"></span> New Task </a></li>
+          </ul>
+        </div>
+
+        <ul class="nav navbar-nav">
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+      </div>
+    </nav> -->
+
+
+
+    <div class="container" style="margin-top:65px">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <legend>Taksdj<span class="badge pull-right" style="position:relative; Top: 4px;">5</span></legend>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              Panel Heading
+              <button type="button" class="pull-right btn-xs btn-success" data-toggle="modal" data-target="#done-modal-id"><span class="glyphicon glyphicon-ok"></span></button>
+            </div>
+            <div class="panel-body">
+              <p><span class="glyphicon glyphicon-user"></span><span class="pull-right label label-default">Ali Satvaty</span></p>
+              <p><span class="glyphicon glyphicon-calendar"></span><span class="pull-right">Ali Satvaty</span></p>
+              <button type="button" class="pull-right btn-xs btn-danger" data-toggle="modal" data-target="#delete-modal-id"><span class="glyphicon glyphicon-remove"></span></button>
+            </div>
+
+            <!-- Done Modal -->
+            <div id="done-modal-id" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-sm">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Done Task?</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Are you sure that task is done?!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+                  <button type="button" class="btn btn-success" data-dismiss="modal">Yes</button>
+                </div>
+              </div>
+
+            </div>
+            </div>
+
+            <!-- Delete Modal -->
+            <div id="delete-modal-id" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-sm">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Delete Task?</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Are you sure to <span style="color:#F00">delete</span> this task?!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+                  <button type="button" class="btn btn-success" data-dismiss="modal">Yes</button>
+                </div>
+              </div>
+
+            </div>
+            </div>
+          </div>
+
+          <div class="panel panel-success">
+            <div class="panel-heading">Panel Heading<span class="pull-right glyphicon glyphicon-ok"></span></div>
+            <div class="panel-body">
+              <p><span class="glyphicon glyphicon-user"></span><span class="pull-right label label-default">Ali Satvaty</span></p>
+              <p><span class="glyphicon glyphicon-calendar"></span><span class="pull-right">Ali Satvaty</span></p>
+              <p><span class="glyphicon glyphicon-check"></span><span class="pull-right">Ali Satvaty</span></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <legend>Taksdj<span class="badge pull-right" style="position:relative; Top: 4px;">5</span></legend>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              Panel Heading
+              <button type="button" class="pull-right btn-xs"><span class="glyphicon glyphicon-ok"></span></button>
+              <button type="button" class="pull-right btn-xs"><span class="glyphicon glyphicon-remove"></span></button>
+            </div>
+            <div class="panel-body">
+              <p><span class="glyphicon glyphicon-calendar"></span><span class="pull-right">Ali Satvaty</span></p>
+            </div>
+          </div>
+          <div class="panel panel-success">
+            <div class="panel-heading">Panel Heading<span class="pull-right glyphicon glyphicon-ok"></span></div>
+            <div class="panel-body">
+              <p><span class="glyphicon glyphicon-calendar"></span><span class="pull-right">Ali Satvaty</span></p>
+              <p><span class="glyphicon glyphicon-check"></span><span class="pull-right">Ali Satvaty</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="well well-sm">
+          <legend>Taskdjs<span class="badge pull-right">5</span></legend>
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel Heading</div>
+            <div class="panel-body">Panel Content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel Heading</div>
+            <div class="panel-body">Panel Content</div>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <legend>Taskdjs</legend>
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel Heading</div>
+            <div class="panel-body">Panel Content</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <legend>Taskdjs</legend>
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel Heading</div>
+            <div class="panel-body">Panel Content</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <legend>Taskdjs</legend>
+        </div>
+        <div class="col-md-3">
+          <legend>Taskdjs</legend>
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel Heading</div>
+            <div class="panel-body">Panel Content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel Heading</div>
+            <div class="panel-body">Panel Content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel Heading</div>
+            <div class="panel-body">Panel Content</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+<div class="col-md-3">
+
+      <div class="panel panel-default">
+        <div class="panel-heading">Panel Heading</div>
+        <div class="panel-body">Panel Content</div>
+      </div>
+    </div>
+      <div class="col-md-3">
+
+      <div class="panel panel-default">
+        <div class="panel-heading">Panel Heading</div>
+        <div class="panel-body">Panel Content</div>
+      </div>
+    </div>
+      <div class="col-md-3">
+
+      <div class="panel panel-default">
+        <div class="panel-heading">Panel Heading</div>
+        <div class="panel-body">Panel Content</div>
+      </div>
+    </div>
+      <div class="col-md-3">
+
+      <div class="panel panel-default">
+        <legend>blabjksl</legend>
+        <div class="panel-heading"><b>Panel Heading</b></div>
+        <div class="panel-body">
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel Heading</div>
+            <div class="panel-body">Panel Content</div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+          <legend>Personalia:</legend>
+
+          <h1>hello</h1>
+        </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+
+          <h1>hello</h1>
+        </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+
+          <h1>hello</h1>
+        </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+
+          <h1>hello</h1>
+        </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+
+          <h1>hello</h1>
+        </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+
+          <h1>hello</h1>
+        </div>
+
+      </div>
+
+
+    <!--------------------------------  SCRIPTS  -------------------------------->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
