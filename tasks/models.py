@@ -37,10 +37,24 @@ class Task(models.Model):
             (buy, 'Buy'),
         )
 
+        # each coler is related to its index value in groups
+        colors = [
+            '#8f7ee6',
+            '#ff9f1a',
+            '#ffd500',
+            '#8acc47',
+            '#d93651',
+            '#00aaff',
+        ]
+
+    class Statuses:
+        done = True
+        pending = False
+
     title = models.CharField(max_length=255)
-    status = models.BooleanField(default=False) # done = 1  and pending = 0
+    status = models.BooleanField(default=Statuses.pending)
     group = models.PositiveSmallIntegerField(choices=Groups.choices, default=Groups.idea)
-    user = models.ForeignKey(User, related_name='tasks', blank=True, null=True,on_delete=models.SET_NULL)
+    user = models.ForeignKey(User, related_name='tasks', blank=True, null=True, on_delete=models.SET_NULL)
     createdDate = models.DateTimeField(auto_now_add=True)
     modifiedDate = models.DateTimeField(auto_now=True)
     doneDate = models.DateTimeField(blank=True, null=True)
