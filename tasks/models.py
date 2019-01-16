@@ -9,16 +9,14 @@ logger = logging.getLogger(__name__)
 
 # class Group(models.Model):
 #     """In case needed to add groups:
-#        Model which keeps groups. each group is related to a Task instance."""
-#
+#        Model which keeps groups. each group is related to a Task instance.
+#     """
 
 class Task(models.Model):
     """
-    Model which keeps tasks.
-    each Task record has:
-    `title`,
-    `status: False if for pending and True is for done
-    `group`: is an IntegerField which have is a choice of the class `Groups`
+    Task(title, group=Task.Groups.idea, status=Task.Statuses.pending,
+      user=None, createdDate=now(),
+      modifiedDate=now(), doneDate=None)
     """
     class Groups:
         """Class containing Todo groups"""
@@ -58,3 +56,10 @@ class Task(models.Model):
     createdDate = models.DateTimeField(auto_now_add=True)
     modifiedDate = models.DateTimeField(auto_now=True)
     doneDate = models.DateTimeField(blank=True, null=True)
+
+    def __repr__(self):
+        return (f'{self.__class__.__name__}('
+                f'title={self.title!r}, group={self.group!r}, '
+                f'status={self.status!r}, user={self.user!r}, '
+                f'createdDate={self.createdDate!r}, modifiedDate={self.modifiedDate!r}, '
+                f'doneDate={self.doneDate!r})')
