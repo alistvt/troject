@@ -126,6 +126,7 @@ STATIC_URL = '/static/'
 LOGIN_URL = 'tasks:login'
 LOGIN_REDIRECT_URL = '/'
 
+
 # Logging configuration
 
 

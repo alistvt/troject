@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+{% load tags %}
+{% load staticfiles %}
+{% block content %}
+
+{% if messages %}
+<div id="done-modal-{{task.id}}" class="fade modal" role="dialog">
+<div class="modal-dialog modal-sm">
+  <!-- Modal content-->
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <h4 class="modal-title"><span class="glyphicon glyphicon-check"></span>  Done</h4>
+    </div>
+    <div class="modal-body">
+      <p>Are you sure that task is done?!</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+      <a href="{% url 'tasks:doneTask' task.id %}" style="background:;"class="btn btn-success" role="button">Yes</a>
+    </div>
+  </div>
+</div>
+</div>
+{% endif %}
+
+{% if user.is_superuser %}
+<!-- NewItem Modal -->
+<div id="new-item-modal" class="modal fade" role="dialog">
+<div class="modal-dialog modal-md">
+
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <h4 class="modal-title"><span class="glyphicon glyphicon-plus"></span> New Task</h4>
+    </div>
+    <div class="modal-body">
+      <form action='{% url "tasks:addTask" %}' method="POST" id="new-task-form">
+        {% csrf_token %}
+        <div class="form-group">
+          <label for="title">Title:</label>
+          <input class="form-control" name="title" id="title" required>
+        </div>
+        <div class="form-group">
+          <label for="group">Group:</label>
+          <select name="group" class="form-control" id="group">
+            {% for val,name in groups %}
+            <option value="{{val}}">{{name}}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="users">User:</label>
+          <select name="user" class="form-control" id="users">
+            {% for user_ in users %}
+            <option value="{{user_.id}}">{{user_.username}}</option>
+            {% endfor %}
+          </select>
+        </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+      <button type="submit" class="btn btn-primary" >Add Task</button>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+{% endif %}
+
+
+<!--==========   Tasks   ==========-->
+<div class="container" style="margin-top:65px">
+  <div class="row">
+
+    <!--=====   Single Group Tasks (column)   =====-->
+    {% for groupName, groupTasks in tasks.items %}
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="well well-sm">
+          <legend style="border:0px solid #E78;border-radius: 3px; padding:10px;color:#FFF; background-color:{% getColor forloop.counter0 %};">{{groupName}}<span class="badge pull-right" style="position:relative; Top: 5px;">{{groupTasks|length}}</span></legend>
+        <!--=======  Task (signle task)  =======-->
+        {% for task in groupTasks %}
+
+          <!--=======  Pending Tasks =======-->
+          {% if not task.status %}
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              {{task.title}}
+              <button type="button" class="pull-right btn-xs" data-toggle="modal" data-target="#done-modal-{{task.id}}"><span class="glyphicon glyphicon-check"></span></button>
+              <button type="button" class="pull-right btn-xs" data-toggle="modal" data-target="#delete-modal-{{task.id}}"><span class="glyphicon glyphicon-trash"></span></button>
+            </div>
+            <div class="panel-body">
+              {% if user.is_superuser %}
+              <p><span class="glyphicon glyphicon-user"></span><span class="pull-right label label-default">{{task.user.username}}</span></p>
+              {% endif %}
+              <p><span class="glyphicon glyphicon-calendar"></span><span class="pull-right">{{task.createdDate}}</span></p>
+            </div>
+
+            <!-- Done Modal -->
+            <div id="done-modal-{{task.id}}" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-sm">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title"><span class="glyphicon glyphicon-check"></span>  Done</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Are you sure that task is done?!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                  <a href="{% url 'tasks:doneTask' task.id %}" style="background:;"class="btn btn-success" role="button">Yes</a>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <!-- Delete Modal -->
+            <div id="delete-modal-{{task.id}}" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-sm">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title"><span class="glyphicon glyphicon-trash"></span>  Delete</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Are you sure to delete this task?!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                  <a href="{% url 'tasks:deleteTask' task.id %}" class="btn btn-primary doneclick" role="button">Yes</a>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!--=======  Done Tasks =======-->
+          {% else %}
+          <div class="panel panel-success">
+            <div class="panel-heading"><s>{{task.title}}</s><span class="pull-right glyphicon glyphicon-ok"></span></div>
+            <div class="panel-body">
+              {% if user.is_superuser %}
+              <p><span class="glyphicon glyphicon-user"></span><span class="pull-right label label-default">{{task.user.username}}</span></p>
+              {% endif %}
+              <p><span class="glyphicon glyphicon-calendar"></span><span class="pull-right">{{task.createdDate}}</span></p>
+              <p><span class="glyphicon glyphicon-check"></span><span class="pull-right">{{task.doneDate}}</span></p>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div> <!-- WELL -->
+      </div>
+    {% endfor %}
+
+  </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+
+{% endblock %}

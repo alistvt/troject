@@ -2,7 +2,7 @@ from django import forms
 from .models import Task
 
 class LoginForm(forms.Form):
-    email = forms.EmailField()
+    username = forms.CharField()
     password = forms.CharField(widget=forms.PasswordInput)
 
 class TaskForm(forms.ModelForm):

@@ -1,10 +1,9 @@
 {% load staticfiles %}
-{% if user.is_authenticated %}
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" style="color:#FFF;" href="#">TROJECT</a>
+      <a class="navbar-brand" style="color:#FFF;" href="#"><i class="glyphicon glyphicon-check"></i> TROJECT</a>
       <ul class="nav navbar-nav">
         {% if user.is_superuser %}
         <li><a href="#" data-toggle="modal" data-target="#new-item-modal"><span class="glyphicon glyphicon-plus"></span> New Task </a></li>
@@ -14,25 +13,33 @@
     <ul class="nav navbar-nav">
     </ul>
     <ul class="nav navbar-nav navbar-right">
+      {% if user.is_authenticated %}
       <li><a href="#"><span class="glyphicon glyphicon-user"></span> {{user.username}}</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Sign out</a></li>
+      <li><a href="{% url 'tasks:logout' %}"><span class="glyphicon glyphicon-log-out"></span> Sign out</a></li>
+      {% else %}
+      <li><a href="#" data-toggle="modal" data-target="#about-modal"><span class="glyphicon glyphicon-exclamation-sign"></span> About </a></li>
+      {% endif %}
     </ul>
   </div>
   </div>
 </nav>
-{% else %}
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" style="color:#FFF;" href="#">TROJECT</a>
+
+{% if not user.is_authenticated %}
+<div id="about-modal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-sm">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" style=""><span class="glyphicon glyphicon-exclamation-sign"></span> About</h4>
+      </div>
+      <div class="modal-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-basic btn-sm" data-dismiss="modal">Ok</button>
+      </div>
     </div>
-    <ul class="nav navbar-nav">
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign in</a></li>
-    </ul>
   </div>
-  </div>
-</nav>
+</div>
 {% endif %}
