@@ -99,9 +99,11 @@
       <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="well well-sm">
           <legend style="border:0px solid #E78;border-radius: 3px; padding:10px;color:#FFF; background-color:{% getColor forloop.counter0 %};">{{groupName}}<span class="badge pull-right" style="position:relative; Top: 5px;">{{groupTasks|length}}</span></legend>
+          {% if not groupTasks %}
+          <p class="text-center text-muted" style="border:1px dashed #aaa; border-radius: 3px;padding:10%;">No {{groupName}} tasks<br> to show</p>
+          {% else %}
           <!--=======  Task (signle task)  =======-->
           {% for task in groupTasks %}
-
             <!--=======  Pending Tasks =======-->
             {% if not task.status %}
             <div class="panel panel-default">
@@ -175,6 +177,7 @@
             </div>
             {% endif %}
           {% endfor %}
+          {% endif %}
         </div> <!-- WELL -->
       </div> <!-- COLUMN -->
     {% endfor %}
