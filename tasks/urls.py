@@ -11,4 +11,5 @@ urlpatterns = [
     url(r'^addtask/$', views.addTask, name='addTask'),
     url(r'^donetask/(?P<id>[-\w]+)/$', views.doneTask, name='doneTask'),
     url(r'^deletetask/(?P<id>[-\w]+)/$', views.deleteTask, name='deleteTask'),
+    url(r'^', views.notMentioned, name='notMentioned'), # all of other paths
 ]

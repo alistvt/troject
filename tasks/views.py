@@ -18,20 +18,21 @@ logger = logging.getLogger(__name__)
 def loginUser(request):
 	if request.user.is_authenticated:
 		return redirect(reverse('tasks:home'))
-
 	elif request.method == 'GET':
 		return render(request, 'login.html')
-
 	elif request.method == 'POST':
 		form = LoginForm(request.POST)
 		if form.is_valid():
 			cd = form.cleaned_data
-			user = authenticate(username=cd['username'].lower(),password=cd['password'])
+			user = authenticate(username=cd['username'].lower(),
+								password=cd['password'])
 			if user is not None:
 				login(request, user)
 				return redirect(reverse('tasks:home'))
 			else:
 				return render(request, 'login.html', {'error':'Username and password doesn\'t match.'})
+		else:
+			return render(request, 'login.html', {'error':'Please check again your inputs.'})
 
 def logoutUser(request):
 	if request.user.is_authenticated:
@@ -54,7 +55,6 @@ def home(request):
 
 @login_required
 def addTask(request):
-	# superuser check
 	if not request.user.is_superuser:
 		messages.error(request, 'Sorry! You don\'t have permission to do this!')
 		return redirect(reverse('tasks:home'))
@@ -66,13 +66,12 @@ def addTask(request):
 			messages.success(request, 'Task added successfuly!')
 			return redirect('tasks:home')
 		else:
-			logger.debug('errors in form.')
+			logger.debug('errors in form. {post} and {errors}'\
+				.format(post=request.POST, errors=task.errors))
 			messages.error(request, 'Sorry! Some errors happened!')
 	else:
 		messages.error(request, 'Method GET unsupported!')
 		return redirect(reverse('tasks:home'))
-		# NOTE:
-		# 404
 
 @login_required
 def doneTask(request, id):
@@ -85,8 +84,7 @@ def doneTask(request, id):
 		messages.success(request, 'Task status changed to done successfuly!')
 		return redirect(reverse('tasks:home'))
 
-	# NOTE: inja bege to dastesi nadari or 404
-	messages.error(request, 'Sorry! Some errors happened!')
+	messages.error(request, 'Sorry! You don\'t have this permission!')
 	return redirect(reverse('tasks:home'))
 
 @login_required
@@ -99,3 +97,7 @@ def deleteTask(request, id):
 	else:
 		messages.error(request, 'Sorry! You don\'t have permission to do this!')
 		return redirect(reverse('tasks:home'))
+
+def notMentioned(request):
+	"""view to redirect every not mentioned url to home"""
+	return redirect(reverse('tasks:home'))
