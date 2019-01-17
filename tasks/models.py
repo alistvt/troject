@@ -7,11 +7,6 @@ from datetime import datetime
 
 logger = logging.getLogger(__name__)
 
-# class Group(models.Model):
-#     """In case needed to add groups:
-#        Model which keeps groups. each group is related to a Task instance.
-#     """
-
 class Task(models.Model):
     """
     Task(title, group=Task.Groups.idea, status=Task.Statuses.pending,
@@ -63,3 +58,8 @@ class Task(models.Model):
                 f'status={self.status!r}, user={self.user!r}, '
                 f'createdDate={self.createdDate!r}, modifiedDate={self.modifiedDate!r}, '
                 f'doneDate={self.doneDate!r})')
+
+# class Group(models.Model):
+#     """In case needed to add groups:
+#        Model which keeps groups. each group is related to a Task instance.
+#     """

@@ -1,7 +1,11 @@
 from .models import Task
+import logging
+
+logger = logging.getLogger(__name__)
 
 def getTasksCategorized(tasks):
     """
+    getTasksCategorized(tasks)
     gets a queryset
     and returns a `dict` containing keys
     which are `group name` and values are
