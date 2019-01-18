@@ -3,7 +3,7 @@ A simple to do list web app
 
 ## About
 
-This is a simple to do list web app develped by django framework for the back-end part and bootstrap 3.3.7 for its front-end.
+This is a simple to do list web app develped by [django framework](https://github.com/django/django) for the back-end part and [bootstrap 3.3.7](https://github.com/twbs/bootstrap) for its front-end.
 Only superusers can add tasks to the app.
 
 **Features:**
