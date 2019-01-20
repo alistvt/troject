@@ -14,7 +14,9 @@
     </ul>
     <ul class="nav navbar-nav navbar-right">
       {% if user.is_authenticated %}
+      
       <li><a href="#"><span class="glyphicon glyphicon-user"></span> {{user.username}}</a></li>
+      <li><a id="change_bg" href="#"><span class="glyphicon glyphicon-refresh"></span> Background</a></li>
       <li><a href="{% url 'tasks:logout' %}"><span class="glyphicon glyphicon-log-out"></span> Sign out</a></li>
       {% else %}
       <li><a href="#" data-toggle="modal" data-target="#about-modal"><span class="glyphicon glyphicon-exclamation-sign"></span> About </a></li>

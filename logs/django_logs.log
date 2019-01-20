@@ -372,3 +372,709 @@ INFO 2019-01-20 06:18:49,642 "GET /static/css/master.css HTTP/1.1" 200 204 None
 INFO 2019-01-20 06:18:49,715 "GET /static/images/1.jpg HTTP/1.1" 200 151992 None
 INFO 2019-01-20 06:18:50,120 "GET /favicon.ico HTTP/1.1" 302 0 None
 INFO 2019-01-20 06:18:50,191 "GET / HTTP/1.1" 200 44221 None
+INFO 2019-01-20 06:32:48,283 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:32:49,685 "GET /static/css/master.css HTTP/1.1" 200 215 None
+INFO 2019-01-20 06:32:49,696 "GET /static/js/bg_changer.js HTTP/1.1" 200 93 None
+INFO 2019-01-20 06:32:49,698 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 06:32:50,073 "GET /static/images/1.jpg HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:32:50,166 "GET /images/2.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:32:50,287 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:32:50,693 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:32:50,761 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:33:05,693 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:33:06,565 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:33:06,887 "GET /images/2.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:33:07,137 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:33:07,484 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:33:07,583 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:33:58,470 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:33:58,554 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:33:58,589 "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:33:58,599 "GET /static/js/bg_changer.js HTTP/1.1" 200 109 None
+INFO 2019-01-20 06:33:58,796 "GET /images/2.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:33:58,948 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:33:59,235 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:33:59,306 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:34:00,725 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:34:00,777 "GET /static/css/master.css HTTP/1.1" 200 215 None
+INFO 2019-01-20 06:34:00,788 "GET /static/js/bg_changer.js HTTP/1.1" 200 109 None
+INFO 2019-01-20 06:34:00,789 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 06:34:01,374 "GET /static/images/1.jpg HTTP/1.1" 200 151992 None
+INFO 2019-01-20 06:34:01,395 "GET /images/2.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:34:01,538 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:34:01,835 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:34:01,992 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:34:41,374 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:34:41,418 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:34:41,429 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:34:41,666 "GET /images/2.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:34:41,822 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:34:42,333 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:34:42,480 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:35:55,109 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:35:55,148 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:35:55,159 "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:35:55,167 "GET /static/js/bg_changer.js HTTP/1.1" 200 113 None
+INFO 2019-01-20 06:35:56,021 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:35:56,163 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:36:03,489 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:36:03,545 "GET /static/js/bg_changer.js HTTP/1.1" 200 113 None
+INFO 2019-01-20 06:36:04,199 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:36:04,330 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:36:04,680 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:36:04,722 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:36:05,512 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:36:05,635 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:36:22,516 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:36:22,560 "GET /static/js/bg_changer.js HTTP/1.1" 200 113 None
+INFO 2019-01-20 06:36:22,680 "GET /static/images/1.jpg HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:36:23,300 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:36:23,448 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:36:23,732 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:36:23,793 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:36:24,661 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:36:24,858 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:37:18,680 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:37:18,718 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:37:18,737 "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:37:18,739 "GET /static/js/bg_changer.js HTTP/1.1" 200 114 None
+INFO 2019-01-20 06:37:19,471 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:37:19,591 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:37:21,669 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:37:21,714 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:37:22,386 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:37:22,501 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:06,011 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:06,087 "GET /static/js/bg_changer.js HTTP/1.1" 200 176 None
+INFO 2019-01-20 06:38:07,068 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:38:07,169 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:07,259 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:08,061 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:38:08,167 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:09,075 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:09,133 "GET /static/css/master.css HTTP/1.1" 200 221 None
+INFO 2019-01-20 06:38:09,147 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 06:38:09,152 "GET /static/js/bg_changer.js HTTP/1.1" 200 176 None
+INFO 2019-01-20 06:38:10,767 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:38:10,877 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:37,292 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:37,342 "GET /static/css/master.css HTTP/1.1" 200 221 None
+INFO 2019-01-20 06:38:37,355 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 06:38:37,363 "GET /static/js/bg_changer.js HTTP/1.1" 200 111 None
+INFO 2019-01-20 06:38:38,283 "GET /images/5.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:38:38,458 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:38,805 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:38:38,948 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:41,075 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:41,122 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:38:41,123 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:38:41,359 "GET /images/5.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:38:41,479 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:41,698 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:41,850 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:38:42,143 "GET /images/5.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:38:42,339 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:42,562 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:38:42,670 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:44,188 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:44,239 "GET /static/css/master.css HTTP/1.1" 200 221 None
+INFO 2019-01-20 06:38:44,244 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 06:38:44,254 "GET /static/js/bg_changer.js HTTP/1.1" 200 111 None
+INFO 2019-01-20 06:38:45,109 "GET /images/5.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:38:45,253 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:45,537 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:38:45,639 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:38:50,665 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:38:50,746 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:39:55,883 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:40:17,503 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:40:17,550 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:40:17,561 "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:40:17,565 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:40:17,829 "GET /images/5.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:40:17,981 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:40:18,577 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:40:18,732 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:40:27,808 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:40:31,033 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:40:31,072 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:40:31,085 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:40:31,322 "GET /images/5.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:40:31,551 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:40:32,116 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:40:32,240 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:40:39,659 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:01,695 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:01,736 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:41:01,744 "GET /static/js/bg_changer.js HTTP/1.1" 200 111 None
+INFO 2019-01-20 06:41:01,825 "GET /images/5.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:41:02,002 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:02,269 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:41:02,348 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:02,814 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:02,860 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:41:02,972 "GET /images/5.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:41:03,170 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:03,293 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:41:03,383 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:04,919 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:05,003 "GET /static/css/master.css HTTP/1.1" 200 221 None
+INFO 2019-01-20 06:41:05,005 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 06:41:05,014 "GET /static/js/bg_changer.js HTTP/1.1" 200 111 None
+INFO 2019-01-20 06:41:05,665 "GET /images/5.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:41:05,728 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:05,852 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:41:05,947 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:19,472 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:19,514 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:41:19,739 "GET /images/5.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:41:19,930 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:20,059 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:41:20,128 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:21,069 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:21,117 "GET /static/css/master.css HTTP/1.1" 200 223 None
+INFO 2019-01-20 06:41:21,129 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 06:41:21,130 "GET /static/js/bg_changer.js HTTP/1.1" 200 111 None
+INFO 2019-01-20 06:41:21,688 "GET /images/5.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:41:21,739 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:21,883 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:41:21,980 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:41:24,992 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:42:14,073 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:42:14,115 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:42:14,134 "GET /static/js/bg_changer.js HTTP/1.1" 200 189 None
+INFO 2019-01-20 06:42:14,387 "GET /images/5.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:42:14,571 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:42:14,876 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:42:15,000 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:43:24,915 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:43:24,972 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:43:25,021 "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:43:25,032 "GET /static/js/bg_changer.js HTTP/1.1" 200 192 None
+INFO 2019-01-20 06:43:25,293 "GET /images/5.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:43:25,505 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:43:25,816 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:43:25,931 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:43:37,765 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:45:06,761 "GET /images/1.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:45:06,843 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:45:16,629 "GET /%20%20../images/1.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:45:16,733 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:45:17,567 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:45:17,586 "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:45:17,586 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:45:17,991 "GET /images/5.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:45:18,160 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:45:18,426 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:45:18,492 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:45:38,869 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:45:38,917 "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:45:38,937 "GET /static/js/bg_changer.js HTTP/1.1" 200 196 None
+INFO 2019-01-20 06:45:39,722 "GET /static/images/5.jpg HTTP/1.1" 200 4155302 None
+INFO 2019-01-20 06:45:39,986 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:45:40,722 "GET / HTTP/1.1" 200 44358 None
+INFO 2019-01-20 06:48:01,088 "GET / HTTP/1.1" 200 44455 None
+INFO 2019-01-20 06:48:01,134 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:48:01,152 "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:48:01,168 "GET /static/js/bg_changer.js HTTP/1.1" 200 122 None
+INFO 2019-01-20 06:48:02,019 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:48:02,119 "GET / HTTP/1.1" 200 44455 None
+INFO 2019-01-20 06:48:04,163 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:48:04,203 "GET / HTTP/1.1" 200 44455 None
+INFO 2019-01-20 06:49:10,446 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:49:10,494 "GET / HTTP/1.1" 200 44455 None
+INFO 2019-01-20 06:49:20,124 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 06:49:20,163 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:49:20,165 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:49:20,807 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:49:20,894 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 06:49:24,789 "GET / HTTP/1.1" 200 44473 None
+INFO 2019-01-20 06:49:25,281 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:49:25,344 "GET / HTTP/1.1" 200 44473 None
+INFO 2019-01-20 06:49:35,348 "GET / HTTP/1.1" 200 44462 None
+INFO 2019-01-20 06:49:36,042 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:49:36,118 "GET / HTTP/1.1" 200 44462 None
+INFO 2019-01-20 06:50:18,793 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:50:18,831 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:50:18,842 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:50:19,593 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:50:19,703 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:50:34,802 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:50:34,840 "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:50:35,380 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:50:35,453 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:50:52,979 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:50:53,021 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:50:53,607 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:50:53,679 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:56:20,636 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:56:20,676 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:56:20,682 "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:56:20,688 "GET /static/js/bg_changer.js HTTP/1.1" 200 554 None
+INFO 2019-01-20 06:56:20,838 "GET /static/images/3.jpg HTTP/1.1" 200 367431 None
+INFO 2019-01-20 06:56:21,226 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:56:21,320 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:56:23,284 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:56:23,336 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:56:25,425 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:56:25,480 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:56:28,169 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:56:28,204 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:56:28,645 "GET /static/images/4.jpg HTTP/1.1" 200 3671319 None
+INFO 2019-01-20 06:56:28,825 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:56:28,957 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:57:29,462 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:57:29,498 "GET /static/js/bg_changer.js HTTP/1.1" 200 570 None
+INFO 2019-01-20 06:57:30,019 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:57:30,115 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:57:30,547 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:57:30,576 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:57:31,146 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:57:31,223 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:58:50,689 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:58:50,731 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:58:50,734 "GET /static/js/bg_changer.js HTTP/1.1" 200 575 None
+INFO 2019-01-20 06:58:51,160 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:58:51,229 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:58:51,947 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:58:51,980 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:58:52,350 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:58:52,429 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:58:53,439 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:58:53,484 "GET /static/css/master.css HTTP/1.1" 200 223 None
+INFO 2019-01-20 06:58:53,492 "GET /static/js/bg_changer.js HTTP/1.1" 200 575 None
+INFO 2019-01-20 06:58:53,887 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 06:58:54,003 "GET /static/images/6.jpg HTTP/1.1" 200 422583 None
+INFO 2019-01-20 06:58:54,343 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:58:54,438 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:58:55,024 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:58:55,057 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:58:55,140 "GET /static/images/1.jpg HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:58:58,519 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:58:58,666 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:59:01,940 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:59:02,001 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:59:21,699 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:59:21,744 "GET /static/js/bg_changer.js HTTP/1.1" 200 596 None
+INFO 2019-01-20 06:59:23,299 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:59:23,416 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:59:25,924 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:59:25,955 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:59:26,929 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:59:27,021 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:59:41,345 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:59:41,378 "GET /static/js/bg_changer.js HTTP/1.1" 200 602 None
+INFO 2019-01-20 06:59:41,811 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:59:41,893 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:59:43,082 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:59:43,114 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 06:59:43,460 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:59:43,526 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:59:44,747 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:59:44,820 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:59:45,482 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:59:45,557 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:59:47,922 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:59:47,972 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:59:59,134 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 06:59:59,167 "GET /static/js/bg_changer.js HTTP/1.1" 200 601 None
+INFO 2019-01-20 06:59:59,669 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 06:59:59,731 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 07:00:00,867 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:00:00,947 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 07:00:01,689 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:00:01,744 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 07:00:02,586 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 07:00:02,638 "GET /static/css/master.css HTTP/1.1" 200 223 None
+INFO 2019-01-20 07:00:02,648 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 07:00:02,658 "GET /static/js/bg_changer.js HTTP/1.1" 200 601 None
+INFO 2019-01-20 07:00:03,151 "GET /static/images/3.jpg HTTP/1.1" 200 367431 None
+INFO 2019-01-20 07:00:03,419 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:00:03,476 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 07:00:05,022 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:00:05,075 "GET / HTTP/1.1" 200 44466 None
+INFO 2019-01-20 07:00:26,628 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:00:26,662 "GET /static/js/bg_changer.js HTTP/1.1" 200 601 None
+INFO 2019-01-20 07:00:27,243 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:00:27,306 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:00:28,080 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:00:28,125 "GET /static/css/master.css HTTP/1.1" 200 223 None
+INFO 2019-01-20 07:00:28,138 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 07:00:28,139 "GET /static/js/bg_changer.js HTTP/1.1" 200 601 None
+INFO 2019-01-20 07:00:28,679 "GET /static/images/3.jpg HTTP/1.1" 200 367431 None
+INFO 2019-01-20 07:00:29,021 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:00:29,090 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:00:30,434 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:00:30,483 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:00:46,808 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:00:46,845 "GET /static/js/bg_changer.js HTTP/1.1" 200 604 None
+INFO 2019-01-20 07:00:47,413 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:00:47,473 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:00:48,429 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:00:48,472 "GET /static/css/master.css HTTP/1.1" 200 223 None
+INFO 2019-01-20 07:00:48,475 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 07:00:48,482 "GET /static/js/bg_changer.js HTTP/1.1" 200 604 None
+INFO 2019-01-20 07:00:49,734 "GET /static/images/3.jpg HTTP/1.1" 200 367431 None
+INFO 2019-01-20 07:00:50,080 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:00:50,164 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:00:53,945 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:00:54,062 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:01:01,318 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:01:01,360 "GET /static/css/master.css HTTP/1.1" 200 223 None
+INFO 2019-01-20 07:01:01,372 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 07:01:01,374 "GET /static/js/bg_changer.js HTTP/1.1" 200 584 None
+INFO 2019-01-20 07:01:03,734 "GET /static/images/7.jpg HTTP/1.1" 200 4528625 None
+INFO 2019-01-20 07:01:03,921 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:04,605 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:01:06,942 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:01:06,983 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 07:01:07,527 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:07,593 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:01:09,155 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:09,245 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:01:10,597 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:10,674 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:01:11,760 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:11,828 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:01:15,319 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:15,456 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:01:19,083 "GET /logout/ HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:19,203 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:01:19,300 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 07:01:19,588 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:19,699 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:19,768 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:01:20,068 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:20,084 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:20,140 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:01:24,481 "POST /login/ HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:24,543 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:01:24,578 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 07:01:25,193 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:25,305 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:01:49,554 "GET /logout/ HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:49,568 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:01:49,604 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 07:01:49,692 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:49,771 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:49,818 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:01:50,118 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:50,168 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:01:50,191 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:02:57,097 "POST /login/ HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:02:57,156 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:02:57,198 "GET /static/js/bg_changer.js HTTP/1.1" 200 594 None
+INFO 2019-01-20 07:02:58,187 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:02:58,298 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:03:00,391 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:03:00,438 "GET /static/css/master.css HTTP/1.1" 304 0 None
+INFO 2019-01-20 07:03:00,438 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 07:03:00,951 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:03:01,022 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:03:01,617 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:03:01,657 "GET /static/css/master.css HTTP/1.1" 200 223 None
+INFO 2019-01-20 07:03:01,667 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 07:03:01,667 "GET /static/js/bg_changer.js HTTP/1.1" 200 594 None
+INFO 2019-01-20 07:03:02,217 "GET /static/images/4.jpg HTTP/1.1" 200 3671319 None
+INFO 2019-01-20 07:03:02,646 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:03:02,748 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:03:04,251 "GET /logout/ HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:03:04,273 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:03:04,329 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 07:03:04,410 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:03:04,460 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:03:04,549 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:03:04,697 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:03:04,714 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:03:04,733 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:04:03,222 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:04:03,259 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 07:04:03,392 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:03,452 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:03,542 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:04:03,793 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:03,808 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:03,835 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:04:05,153 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:04:05,204 "GET /static/css/master.css HTTP/1.1" 200 223 None
+INFO 2019-01-20 07:04:05,225 "GET /static/js/bg_changer.js HTTP/1.1" 200 594 None
+INFO 2019-01-20 07:04:05,226 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 07:04:05,760 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:05,774 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:05,785 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:04:05,916 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:05,937 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:05,956 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:04:23,562 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:04:23,595 "GET /static/js/bg_changer.js HTTP/1.1" 200 606 None
+INFO 2019-01-20 07:04:23,725 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:23,774 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:23,816 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:04:24,053 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:24,069 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:24,086 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:04:24,956 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:04:25,005 "GET /static/css/master.css HTTP/1.1" 200 223 None
+INFO 2019-01-20 07:04:25,015 "GET /static/js/bg_changer.js HTTP/1.1" 200 606 None
+INFO 2019-01-20 07:04:25,016 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 07:04:25,479 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:25,491 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:25,513 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:04:25,586 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:25,600 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:25,619 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:04:28,586 "POST /login/ HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:28,691 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:04:28,735 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 07:04:29,486 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:29,591 "GET / HTTP/1.1" 200 44472 None
+INFO 2019-01-20 07:04:31,119 "GET /logout/ HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:31,140 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:04:31,184 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 07:04:31,248 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:31,267 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:31,326 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:04:31,448 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:31,471 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:04:31,493 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:06:30,680 "GET /login/static/images/.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:06:30,698 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:06:30,717 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:06:30,932 "GET /login/static/images/5.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:06:30,941 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:06:30,955 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:08:27,254 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:08:27,307 "GET /static/css/master.css HTTP/1.1" 200 223 None
+INFO 2019-01-20 07:08:27,308 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 07:08:27,314 "GET /static/js/bg_changer.js HTTP/1.1" 200 367 None
+INFO 2019-01-20 07:08:27,872 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:27,919 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:27,944 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:08:28,134 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:28,147 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:28,161 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:08:28,792 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:08:28,880 "GET /static/css/master.css HTTP/1.1" 200 223 None
+INFO 2019-01-20 07:08:28,894 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 07:08:28,895 "GET /static/js/bg_changer.js HTTP/1.1" 200 367 None
+INFO 2019-01-20 07:08:29,117 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:29,134 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:29,163 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:08:29,269 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:29,298 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:29,316 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:08:32,151 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:08:32,191 "GET /static/css/master.css HTTP/1.1" 200 223 None
+INFO 2019-01-20 07:08:32,198 "GET /static/js/bg_changer.js HTTP/1.1" 200 606 None
+INFO 2019-01-20 07:08:32,199 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 07:08:32,715 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:32,730 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:32,753 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:08:32,942 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:32,962 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:32,977 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:08:50,380 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:08:50,421 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 07:08:50,674 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:50,710 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:50,788 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:08:51,402 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:51,442 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:08:51,463 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+ERROR 2019-01-20 07:09:44,930 Internal Server Error: /login/ None
+Traceback (most recent call last):
+  File "C:\Program Files\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Python codes\Troject\tasks\views.py", line 22, in loginUser
+    return render(request, 'login.html')
+  File "C:\Program Files\Python36\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 484, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 502, in extend_nodelist
+    token, '%r must be the first tag in the template.' % node,
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends "base.html"> must be the first tag in the template.
+ERROR 2019-01-20 07:09:44,930 Internal Server Error: /login/ None
+Traceback (most recent call last):
+  File "C:\Program Files\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Python codes\Troject\tasks\views.py", line 22, in loginUser
+    return render(request, 'login.html')
+  File "C:\Program Files\Python36\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 484, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 502, in extend_nodelist
+    token, '%r must be the first tag in the template.' % node,
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends "base.html"> must be the first tag in the template.
+ERROR 2019-01-20 07:09:45,456 "GET /login/ HTTP/1.1" 500 125559 None
+INFO 2019-01-20 07:09:46,952 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:09:46,989 "GET / HTTP/1.1" 302 0 None
+ERROR 2019-01-20 07:09:47,008 Internal Server Error: /login/ None
+Traceback (most recent call last):
+  File "C:\Program Files\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Python codes\Troject\tasks\views.py", line 22, in loginUser
+    return render(request, 'login.html')
+  File "C:\Program Files\Python36\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 484, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 502, in extend_nodelist
+    token, '%r must be the first tag in the template.' % node,
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends "base.html"> must be the first tag in the template.
+ERROR 2019-01-20 07:09:47,008 Internal Server Error: /login/ None
+Traceback (most recent call last):
+  File "C:\Program Files\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Python codes\Troject\tasks\views.py", line 22, in loginUser
+    return render(request, 'login.html')
+  File "C:\Program Files\Python36\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 484, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Program Files\Python36\lib\site-packages\django\template\base.py", line 502, in extend_nodelist
+    token, '%r must be the first tag in the template.' % node,
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends "base.html"> must be the first tag in the template.
+ERROR 2019-01-20 07:09:47,267 "GET /login/?next=/ HTTP/1.1" 500 125726 None
+INFO 2019-01-20 07:09:55,043 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:09:55,087 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 07:09:55,179 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:09:55,219 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:09:55,382 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:09:55,694 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:09:55,715 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:09:55,734 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:09:56,267 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:09:56,359 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:09:56,377 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:09:56,404 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:09:56,598 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:09:56,609 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:09:56,628 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:09:57,195 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:09:57,245 "GET /static/css/master.css HTTP/1.1" 200 223 None
+INFO 2019-01-20 07:09:57,258 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 07:09:57,273 "GET /static/js/bg_changer.js HTTP/1.1" 200 606 None
+INFO 2019-01-20 07:09:58,044 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:09:58,054 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:09:58,071 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:09:58,175 "GET /login/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:09:58,205 "GET /static/css/master.css HTTP/1.1" 200 223 None
+INFO 2019-01-20 07:09:58,214 "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3254 None
+INFO 2019-01-20 07:09:58,214 "GET /static/js/bg_changer.js HTTP/1.1" 200 606 None
+INFO 2019-01-20 07:09:58,434 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:09:58,443 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:09:58,466 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:09:58,584 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:09:58,597 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:09:58,617 "GET /login/?next=/ HTTP/1.1" 200 4720 None
+INFO 2019-01-20 07:12:02,159 "GET /login/ HTTP/1.1" 200 4752 None
+INFO 2019-01-20 07:12:02,200 "GET /static/js/bg_changer.js HTTP/1.1" 304 0 None
+INFO 2019-01-20 07:12:02,449 "GET /login/static/images/4.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:12:02,522 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:12:02,567 "GET /login/?next=/ HTTP/1.1" 200 4752 None
+INFO 2019-01-20 07:12:02,796 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:12:02,811 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:12:02,826 "GET /login/?next=/ HTTP/1.1" 200 4752 None
+INFO 2019-01-20 07:12:04,917 "POST /login/ HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:12:04,973 "GET / HTTP/1.1" 200 44184 None
+INFO 2019-01-20 07:12:05,077 "GET /static/images/4.jpg HTTP/1.1" 304 0 None
+INFO 2019-01-20 07:12:05,817 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:12:05,928 "GET / HTTP/1.1" 200 44184 None
+INFO 2019-01-20 07:12:09,369 "GET /static/images/5.jpg HTTP/1.1" 304 0 None
+INFO 2019-01-20 07:12:09,394 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:12:09,477 "GET / HTTP/1.1" 200 44184 None
+INFO 2019-01-20 07:12:13,430 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:12:13,486 "GET / HTTP/1.1" 200 44184 None
+INFO 2019-01-20 07:12:14,609 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:12:14,690 "GET /static/images/2.jpg HTTP/1.1" 200 606285 None
+INFO 2019-01-20 07:12:14,723 "GET / HTTP/1.1" 200 44184 None
+INFO 2019-01-20 07:12:18,770 "GET /logout/ HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:12:18,789 "GET /login/ HTTP/1.1" 200 4752 None
+INFO 2019-01-20 07:12:19,009 "GET /login/static/images/2.jpg HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:12:19,091 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:12:19,165 "GET /login/?next=/ HTTP/1.1" 200 4752 None
+INFO 2019-01-20 07:12:19,445 "GET /favicon.ico HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:12:19,459 "GET / HTTP/1.1" 302 0 None
+INFO 2019-01-20 07:12:19,489 "GET /login/?next=/ HTTP/1.1" 200 4752 None
