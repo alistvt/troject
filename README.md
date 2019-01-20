@@ -13,6 +13,7 @@ Only superusers can add tasks to the app.
 - Tasks can be deleted only if they are pending.
 - A task can be done only by the superusers or by the user which the task is assigned to.
 - Adding users is possible in the django's default admin panel by the superuser.
+- Changing background and saving it in the cookies.
 
 ## How to start
 
@@ -42,6 +43,6 @@ there are two users defined to test the project:
 > _password:_ `nothackable`
 
 **Tips**: To create new users or change the passwords enter the [admin page](http://localhost:8000/admin/) by the superuser credentials.
-    
-   
+
+
 _Star this if you enjoyed :)_
